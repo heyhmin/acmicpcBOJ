@@ -5,6 +5,11 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable:4996)
+#define prt(x) #x << ' ' << x
+#define ALL(x) (x).begin(), (x).end()
+#define endl '\n'
+#define SZ(x) (int)size(x)
+#define REP(i,a,b) for (int i = (a); i <= (b); ++i)
 
 using namespace std;
 int T, t, n, m, limit, num1 = 0, num2 = 0, num3 = 0, m_cnt = 0;
